@@ -1,5 +1,60 @@
 [
   {
+    "id": 34875720520,
+    "source": "github-actions",
+    "simulator": "verilator",
+    "run_number": 4,
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/hridoy7862/cva6_FPGA_implementation/actions/runs/34875720520",
+    "head_branch": "dependabot/submodules/core/cache_subsystem/hpdcache-e8f072e",
+    "head_sha": "80e3ced7",
+    "event": "pull_request",
+    "created_at": "2026-09-14T17:35:54Z",
+    "updated_at": "2026-09-14T17:42:49Z",
+    "run_started_at": "2026-09-14T17:35:54Z",
+    "duration_seconds": 415,
+    "total_jobs": 3,
+    "passed_jobs": 3,
+    "failed_jobs": 0,
+    "skipped_jobs": 0,
+    "jobs": [
+      {
+        "name": "RV32 Tier1 cv32a65x / smoke-tests-cv32a65x",
+        "conclusion": "success",
+        "started_at": "2026-09-14T17:36:57Z",
+        "completed_at": "2026-09-14T17:39:02Z",
+        "duration_seconds": 125,
+        "html_url": "https://github.com/hridoy7862/cva6_FPGA_implementation/actions/runs/34875720520/job/104082624835",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "smoke-tests-cv32a65x"
+      },
+      {
+        "name": "RV32 Tier1 cv32a60x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-14T17:36:57Z",
+        "completed_at": "2026-09-14T17:40:16Z",
+        "duration_seconds": 199,
+        "html_url": "https://github.com/hridoy7862/cva6_FPGA_implementation/actions/runs/34875720520/job/104082624850",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "cv32a6_tests"
+      },
+      {
+        "name": "RV64 Tier1 cv64a6_imafdc_sv39_hpdcache_wb / cv64a6_imafdc_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-14T17:36:58Z",
+        "completed_at": "2026-09-14T17:42:48Z",
+        "duration_seconds": 350,
+        "html_url": "https://github.com/hridoy7862/cva6_FPGA_implementation/actions/runs/34875720520/job/104082624874",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "cv64a6_imafdc_tests"
+      }
+    ]
+  },
+  {
     "id": 33374612097,
     "source": "github-actions",
     "simulator": "verilator",
