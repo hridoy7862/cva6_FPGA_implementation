@@ -1,5 +1,60 @@
 [
   {
+    "id": 35633074033,
+    "source": "github-actions",
+    "simulator": "verilator",
+    "run_number": 6,
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/hridoy7862/cva6_FPGA_implementation/actions/runs/35633074033",
+    "head_branch": "dependabot/submodules/core/cache_subsystem/hpdcache-a23eac2",
+    "head_sha": "5cd8058f",
+    "event": "pull_request",
+    "created_at": "2026-09-21T17:36:17Z",
+    "updated_at": "2026-09-21T17:43:02Z",
+    "run_started_at": "2026-09-21T17:36:17Z",
+    "duration_seconds": 405,
+    "total_jobs": 3,
+    "passed_jobs": 3,
+    "failed_jobs": 0,
+    "skipped_jobs": 0,
+    "jobs": [
+      {
+        "name": "RV64 Tier1 cv64a6_imafdc_sv39_hpdcache_wb / cv64a6_imafdc_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-21T17:37:51Z",
+        "completed_at": "2026-09-21T17:43:01Z",
+        "duration_seconds": 310,
+        "html_url": "https://github.com/hridoy7862/cva6_FPGA_implementation/actions/runs/35633074033/job/106444252992",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "cv64a6_imafdc_tests"
+      },
+      {
+        "name": "RV32 Tier1 cv32a65x / smoke-tests-cv32a65x",
+        "conclusion": "success",
+        "started_at": "2026-09-21T17:38:26Z",
+        "completed_at": "2026-09-21T17:40:28Z",
+        "duration_seconds": 122,
+        "html_url": "https://github.com/hridoy7862/cva6_FPGA_implementation/actions/runs/35633074033/job/106444253002",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "smoke-tests-cv32a65x"
+      },
+      {
+        "name": "RV32 Tier1 cv32a60x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-21T17:37:51Z",
+        "completed_at": "2026-09-21T17:40:42Z",
+        "duration_seconds": 171,
+        "html_url": "https://github.com/hridoy7862/cva6_FPGA_implementation/actions/runs/35633074033/job/106444253199",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "cv32a6_tests"
+      }
+    ]
+  },
+  {
     "id": 34875728565,
     "source": "github-actions",
     "simulator": "verilator",
